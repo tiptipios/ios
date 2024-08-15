@@ -1,4 +1,4 @@
-function Camcao() {
+    function Camcao() {
                     modifyValue1(-0.05,
                         Number(prompt("Nhập Độ Cao < 20 -> ...  :", "")),
                         'F00',
@@ -6,11 +6,6 @@ function Camcao() {
                     );
                 }
                 
-                function tipNorecoil() {
-                    function searchAndReplace(searchValue, replaceValue, type) {
-                        h5gg.clearResults(); h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000'); var results = h5gg.getResults(h5gg.getResultsCount()); for (var i = 0; i < results.length; i++) {
-                            h5gg.setValue(results[i].address, replaceValue.toString(), type)}}
-                    searchAndReplace(1016018816, 6018816, 'I32')}
                 function Camxa() {
                     modifyValue1(2.5,
                         Number(prompt("Nhập Tầm xa < 20 -> ... :", "")),
@@ -52,7 +47,7 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
             results.forEach(result => {
                 h5gg.setValue(result.address, replaceValue.toString(), 'F32');
             });
-        }, 10000); // Mỗi 500ms sẽ khóa lại giá trị
+        }, 1000); // Mỗi 500ms sẽ khóa lại giá trị
 
         // Để hủy bỏ khóa, bạn có thể dùng clearInterval(locker); trong trình console hoặc tích hợp vào một nút khác.
     } else if (alertMessage) {
@@ -90,6 +85,12 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
                     }
                     searchAndReplace(96688289, 2018908708, 'I32');
                 }
+                
+                function tipNorecoil() {
+                    function searchAndReplace(searchValue, replaceValue, type) {
+                        h5gg.clearResults(); h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000'); var results = h5gg.getResults(h5gg.getResultsCount()); for (var i = 0; i < results.length; i++) {
+                            h5gg.setValue(results[i].address, replaceValue.toString(), type)}}
+                    searchAndReplace(1016018816, 6018816, 'I32')}
                 function tipXoahaot() {
                     function searchAndReplace(searchValue, replaceValue, type) {
                         h5gg.clearResults();
@@ -155,7 +156,7 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
                         h5gg.clearResults();
                         h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000');
                         var results = h5gg.getResults(h5gg.getResultsCount());
-                        for (var i = 0; i < results.length && i < 15; i++) {
+                        for (var i = 0; i < results.length && i < 17; i++) {
                             h5gg.setValue(results[i].address, replaceValue.toString(), type);
                         }
                     }
