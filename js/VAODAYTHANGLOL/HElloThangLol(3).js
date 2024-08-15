@@ -47,7 +47,7 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
             results.forEach(result => {
                 h5gg.setValue(result.address, replaceValue.toString(), 'F32');
             });
-        }, 1000); // Mỗi 500ms sẽ khóa lại giá trị
+        }, 11000); // Mỗi 500ms sẽ khóa lại giá trị
 
         // Để hủy bỏ khóa, bạn có thể dùng clearInterval(locker); trong trình console hoặc tích hợp vào một nút khác.
     } else if (alertMessage) {
