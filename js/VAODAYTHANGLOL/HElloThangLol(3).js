@@ -29,12 +29,14 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
     const results = h5gg.getResults(h5gg.getResultsCount());
     let modifiedCount = 0;
 
+    // Tạo một danh sách để lưu trữ các địa chỉ cần khóa
+    const lockAddresses = [];
+
     results.forEach(result => {
         if (result.address.endsWith(addressEndsWith) || (addressEndsWith2 && result.address.endsWith(addressEndsWith2))) {
             h5gg.setValue(result.address, replaceValue.toString(), 'F32');
             modifiedCount++;
-            if (searchValue === zomcamxat) zomcamxat = replaceValue;
-            
+            lockAddresses.push(result.address); // Lưu địa chỉ cần khóa
         }
     });
 
@@ -43,13 +45,16 @@ function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWit
 
         // Khóa giá trị sau khi thay đổi
         const locker = setInterval(function() {
-            console.log("Khóa giá trị...");
-            results.forEach(result => {
-                h5gg.setValue(result.address, replaceValue.toString(), 'F32');
+            console.log("Kiểm tra và khóa giá trị...");
+            lockAddresses.forEach(address => {
+                const currentValue = h5gg.getValue(address, 'F32');
+                if (currentValue !== replaceValue) { // Chỉ cập nhật nếu giá trị đã thay đổi
+                    h5gg.setValue(address, replaceValue.toString(), 'F32');
+                }
             });
-        }, 500); // Mỗi 500ms sẽ khóa lại giá trị
+        }, 2000); // Kiểm tra và cập nhật mỗi 2 giây (giảm tần suất lặp)
 
-        // Để hủy bỏ khóa, bạn có thể dùng clearInterval(locker); trong trình console hoặc tích hợp vào một nút khác.
+        // Hủy bỏ khóa: clearInterval(locker); có thể gọi khi cần thiết
     } else if (alertMessage) {
         alert("Không tìm thấy kết quả phù hợp để thay đổi.");
     }
