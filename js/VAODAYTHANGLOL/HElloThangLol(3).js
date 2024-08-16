@@ -255,7 +255,7 @@
         }
     }
 }
-                }
+                
                 function tipAim180() {
                     modifyValue(Buoc1, -2000, 'A44'); modifyValue(Buoc2, -2000, 'A3C'); modifyValue(Buoc3, -2000, 'A30', 'A38')}
                 function tipNhetam() {
