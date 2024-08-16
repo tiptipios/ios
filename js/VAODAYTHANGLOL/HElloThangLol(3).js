@@ -13,17 +13,17 @@
                         null,
                     );
                 }
-      function ZomCamxa() {
-    modifyValue7(
-        60, // Giá trị tìm kiếm ban đầu là 60
-        Number(prompt("Nhập Tầm xa > 61 :  ... :", "")), // Giá trị thay thế do người dùng nhập vào
+                     var zomcamxat = 60;
+               function ZomCamxa() {
+    modifyValue2(
+        zomcamxat, // Giá trị tìm kiếm ban đầu là 60
+          Number(prompt("Nhập Tầm xa -> ... :", "")), // Giá trị thay thế do người dùng nhập vào
         '68', // Phần cuối của địa chỉ bộ nhớ cần khớp
         null, // Không cần địa chỉ kết thúc thứ hai
-        "Giá trị đã được thay đổi và khóa." // Thông báo khi thay đổi thành công và khóa giá trị
+        "Đã bật cam xa" // Thông báo khi thay đổi thành công và khóa giá trị
     );
 }
-
-function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWith2, alertMessage) {
+function modifyValue2(searchValue, replaceValue, addressEndsWith, addressEndsWith2, alertMessage) {
     h5gg.clearResults();
     h5gg.searchNumber(searchValue, 'F32', '0x100000000', '0x160000000');
     const results = h5gg.getResults(h5gg.getResultsCount());
@@ -59,7 +59,6 @@ function modifyValue7(searchValue, replaceValue, addressEndsWith, addressEndsWit
         alert("Không tìm thấy kết quả phù hợp để thay đổi.");
     }
 }
-
 
 
                 function tipAimCope() {
