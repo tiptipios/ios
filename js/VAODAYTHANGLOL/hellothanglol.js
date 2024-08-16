@@ -217,3 +217,24 @@
                     Camcao()}
                 function callZomCamxa() {
                     ZomCamxa()}
+       function Awmscope() {
+                    tipAwmscope()}
+                    function AimAwm() {
+                    tipAimAwm()}
+                    function Speed50x() {
+                    tipSpeed50x()}
+                    function Speed10x() {
+                    tipSpeed10x()}
+                    function speed2x() {
+                    tipspeed2x()}
+                    function speed1x() {
+                    tipspeed1x()}
+function callZomCamxa() {
+                    tipmagic()}
+                    function so90() {
+                    tipso90()}
+                    function so91() {
+                    tipso91()}
+function doisungnhanh() {
+                    tipdoisungnhanh()}
+
