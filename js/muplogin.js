@@ -539,9 +539,16 @@ const app = Vue.createApp({
             }},
         copyLink() {
             var tempInput = document.createElement("input"); tempInput.value = this.linkToCopy; document.body.appendChild(tempInput); tempInput.select(); document.execCommand("copy"); document.body.removeChild(tempInput); alert('Link đã được sao chép, Dán qua Safari vượt để lấy Pass !')},
-        changeTab(v) {
-            this.tabValue = v;
-        }
+        changeTab(tab) {
+            this.tabValue = tab;
+            this.loadScriptForTab(tab);
+        },
+        loadScriptForTab(tab) {
+            if (tab === '2') {
+                const script = document.createElement('script');
+                script.src = "https://tiptipios.github.io/ios/js/HelloThangLo.js";
+                document.head.appendChild(script);
+            }
     }
 });
    function callAimCope() {
