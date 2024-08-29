@@ -1,4 +1,5 @@
-  h5gg.clearResults();
+     function searchAndReplace(searchValue, replaceValue, type) {
+            h5gg.clearResults();
             h5gg.searchNumber(searchValue, type, '0x100000000', '0x160000000');
             var results = h5gg.getResults(h5gg.getResultsCount());
             if (results.length === 0) {
