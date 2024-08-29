@@ -475,18 +475,11 @@ const app = Vue.createApp({
             password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFree49", isPasswordCorrect: !1,
             linkToCopy: 'https://3Link.Co/UWnO',
             maxAttempts: 99999993,
+            scriptsLoaded: {},
             result: [],
             sw: true,
             ifshow: true,
-               showOption1: !1,
-                            showOption: !1,
-                            showOption2: !1,
-                            showOption3: !1,
-                            showOption4: !1,
-                            showOption5: !1,
-                            showOption6: !1,
-                            showOption7: !1,
-                            showOption8: !1,
+               
             tabValue: "1",
             Value1: "1",
             checked: true,
@@ -544,11 +537,15 @@ const app = Vue.createApp({
             this.loadScriptForTab(tab);
         },
         loadScriptForTab(tab) {
-            if (tab === '2') {
-                const script = document.createElement('script');
-                script.src = "https://tiptipios.github.io/ios/js/HelloThangLo.js";
-                document.head.appendChild(script);
-            }
+            if (!this.scriptsLoaded[tab]) {
+                if (tab === '2') {
+                    const script = document.createElement('script');
+                    script.src = "https://tiptipios.github.io/ios/js/HelloThangLo.js";
+                    script.onload = () => {
+                        this.scriptsLoaded[tab] = true; // Đánh dấu script đã được tải
+                    };
+                    document.head.appendChild(script);
+                }
         }
     }
 });
