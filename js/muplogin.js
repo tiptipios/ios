@@ -546,7 +546,7 @@ const app = Vue.createApp({
                     };
                     document.head.appendChild(script);
                 }
-        }
+        }}
     }
 });
    function callAimCope() {
