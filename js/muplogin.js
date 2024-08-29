@@ -535,6 +535,56 @@ const app = Vue.createApp({
         }
     }
 });
+   function callAimCope() {
+                    tipAimCope()}
+                function callNorecoil() {
+                    tipNorecoil()}
+                function callhsCu() {
+                    tiphsCu()}
+                function callXoahaot() {
+                    tipXoahaot()}
+                function callAim180() {
+                    tipAim180()}
+                function callbuffnhay() {
+                    tipbuffnhay()}
+                function callAimCopevip() {
+                    tipAimcopevip()}
+                function callAimfov() {
+                    tipAimFov()}
+                function callconfirmAction3() {
+                    confirmAction3()}
+                function callconfirmAction2() {
+                    confirmAction2()}
+                function callconfirmAction1() {
+                    confirmAction1()}
+                function callconfirmAction() {
+                    confirmAction()}
+                function callcamcao() {
+                    Camcao()}
+                function callcamxa() {
+                    Camcao()}
+                function callZomCamxa() {
+                    ZomCamxa()}
+                    function Awmscope() {
+                    tipAwmscope()}
+                    function AimAwm() {
+                    tipAimAwm()}
+                    function Speed50x() {
+                    tipSpeed50x()}
+                    function Speed10x() {
+                    tipSpeed10x()}
+                    function speed2x() {
+                    tipspeed2x()}
+                    function speed1x() {
+                    tipspeed1x()}
+function callZomCamxa() {
+                    tipmagic()}
+                    function so90() {
+                    tipso90()}
+                    function so91() {
+                    tipso91()}
+function doisungnhanh() {
+                    tipdoisungnhanh()}
 app.use(vant);
 
 // 通过 CDN 引入时不会自动注册 Lazyload 组件
