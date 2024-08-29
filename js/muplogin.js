@@ -549,6 +549,7 @@ const app = Vue.createApp({
                 script.src = "https://tiptipios.github.io/ios/js/HelloThangLo.js";
                 document.head.appendChild(script);
             }
+        }
     }
 });
    function callAimCope() {
