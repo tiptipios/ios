@@ -591,7 +591,7 @@ const app = Vue.createApp({
                     tipspeed2x()}
                     function speed1x() {
                     tipspeed1x()}
-function callZomCamxa() {
+function magic() {
                     tipmagic()}
                     function so90() {
                     tipso90()}
