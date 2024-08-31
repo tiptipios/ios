@@ -541,7 +541,7 @@ const app = Vue.createApp({
             tempInput.select();
             document.execCommand("copy");
             document.body.removeChild(tempInput);
-            alert('Link đã được sao chép, Dán qua Safari vượt để lấy Pass!');
+            alert(`Link đã được sao chép:\n${this.linkToCopy}\nDán qua Safari để lấy Pass!`);
         },
         fillPassword() {
             let userInput = prompt("Nhập mật khẩu của bạn:");
