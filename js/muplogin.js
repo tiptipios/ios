@@ -472,8 +472,8 @@ let _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
 const app = Vue.createApp({
     data() {
         return {
-            password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFree49", isPasswordCorrect: !1,
-            linkToCopy: 'https://3Link.Co/UWnO',
+            password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFree47", isPasswordCorrect: !1,
+            linkToCopy: 'https://3link.co/GetKeyTip',
             maxAttempts: 99999993,
             scriptsLoaded: {},
             result: [],
@@ -541,10 +541,10 @@ const app = Vue.createApp({
             tempInput.select();
             document.execCommand("copy");
             document.body.removeChild(tempInput);
-            alert(`Link đã được sao chép:\n${this.linkToCopy}\nDán qua Safari để lấy Pass!`);
+            alert(`Link đã được sao chép\n${this.linkToCopy}\nDán qua Safari để lấy Pass!`);
         },
         fillPassword() {
-            let userInput = prompt("Nhập mật khẩu của bạn:");
+            let userInput = prompt("Nhập mật khẩu:");
             if (userInput !== null) {
                 this.password = userInput;
             }
