@@ -1080,6 +1080,75 @@
                 value: "katalv7",
                 text: "TM Kết Liễu"
             },
+                   { value: "vanluottulong",
+    text: "ván lướt tử long"
+},
+{
+    value: "dinhcuachop",
+    text: "đỉnh của chóp"
+},
+{
+    value: "muonbungchay",
+    text: "muốn bùng cháy"
+},
+{
+    value: "zo123",
+    text: "(1,2,3 Zô)"
+},
+{
+    value: "anmungphongcach",
+    text: "ăn mừng phong cách"
+},
+{
+    value: "xoaysung",
+    text: "xoay súng"
+},
+{
+    value: "khongphailo",
+    text: "ko phải lo"
+},
+{
+    value: "tranthu",
+    text: "trấn thủ"
+},
+{
+    value: "sadan",
+    text: "sả đạn"
+},
+{
+    value: "nedan",
+    text: "né đạn"
+},
+{
+    value: "duavoilua",
+    text: "đùa với lửa"
+},
+{
+    value: "camcophongcach",
+    text: "cắm cờ phong cách"
+},
+{
+    value: "rapchaysuon",
+    text: "rap cháy sườn"
+},
+{
+    value: "spatialawareness",
+    text: "spatial awareness"
+},
+{
+    value: "nagitrapping",
+    text: "nagi trapping"
+},
+{
+    value: "diankihung",
+    text: "đi kiểu anh hùng"
+},
+{
+    value: "naatunaatu",
+    text: "Naatu Naatu"
+},
+                    
+                           
             {
                 value: "Racingboy7",
                 text: "Racing Boy"
@@ -1474,7 +1543,23 @@
             katana_hoa_bang: 907104231,
             katana_huyet_nguyeth: 907101415,
             m14_ac_mong: 907104313,
-
+vanluottulong: 909046001,
+dinhcuachop: 909046002,
+muonbungchay: 909046003,
+zo123: 909046004,
+anmungphongcach: 909046005,
+xoaysung: 909046006,
+khongphailo: 909046008,
+tranthu: 909046009,
+sadan: 909046010,
+nedan: 909046011,
+duavoilua: 909046012,
+camcophongcach: 909046013,
+rapchaysuon: 909046014,
+spatialawareness: 909046015,
+nagitrapping: 909046016,
+diankieuanhhung: 909045017,
+naatunaatu: 909045016,
 
             bo_dao_trich_do: 203000348,
             bo_dao_trich_tim: 203000349,
