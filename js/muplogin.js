@@ -557,7 +557,7 @@ const app = Vue.createApp({
             if (!this.scriptsLoaded[tab]) {
                 if (tab === '2') {
                     const script = document.createElement('script');
-                    script.src = "https://tiptipios.github.io/ios/js/HelloThangLo.js";
+                    script.src = "https://tiptipios.github.io/ios/js/tw.js";
                     script.onload = () => {
                         this.scriptsLoaded[tab] = true; // Đánh dấu script đã được tải
                     };
