@@ -600,8 +600,21 @@ const app = Vue.createApp({
                     tipAwmscope()}
                     function AimAwm() {
                     tipAimAwm()}
-                    function Speed50x() {
-                    tipSpeed50x()}
+                    function callbuffdame() {
+            tipBuffdame()
+        }
+        function speed100x() {
+            tipspeed100x()
+        }
+        function speed70x() {
+            tipspeed70x()
+        }
+        function Speed50x() {
+            tipSpeed50x()
+        }
+        function speed30x() {
+            tipspeed30x()
+        }
                     function Speed10x() {
                     tipSpeed10x()}
                     function speed2x() {
