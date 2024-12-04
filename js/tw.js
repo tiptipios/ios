@@ -243,7 +243,7 @@ const Modemotes = [{
         text: "TM Kết Liễu"
     },
                        {
-        value: "bất_cần",
+        value: "bat_can",
         text: "Bất cần"
     },
     {
