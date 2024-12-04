@@ -242,6 +242,78 @@ const Modemotes = [{
         value: "katalv7",
         text: "TM Kết Liễu"
     },
+                       {
+        value: "bất_cần",
+        text: "Bất cần"
+    },
+    {
+        value: "cuc_quang_bung_no",
+        text: "Cực quang bùng nổ"
+    },
+    {
+        value: "tam_su",
+        text: "Tâm sự"
+    },
+    {
+        value: "thien_than_tung_canh",
+        text: "Thiên thần tung cánh"
+    },
+    {
+        value: "kha_que",
+        text: "Khá quê"
+    },
+    {
+        value: "nang_cup",
+        text: "Nâng cúp"
+    },
+    {
+        value: "yeu_hay_khong_yeu",
+        text: "Yêu hay không yêu"
+    },
+    {
+        value: "mua_keo",
+        text: "Múa kéo"
+    },
+    {
+        value: "dau_nay_so",
+        text: "Đầu nảy số"
+    },
+    {
+        value: "dem_nguoc",
+        text: "Đếm ngược"
+    },
+    {
+        value: "lac_hong",
+        text: "Lắc hông"
+    },
+    {
+        value: "co_vu_cuong_nhiet",
+        text: "Cổ vũ cuồng nhiệt"
+    },
+    {
+        value: "cu_nem_3_diem",
+        text: "Cú ném 3 điểm"
+    },
+    {
+        value: "rasengan",
+        text: "Rasengan"
+    },
+    {
+        value: "ngan_nam_dau_don",
+        text: "Ngàn năm đau đớn"
+    },
+    {
+        value: "ket_an_ninja",
+        text: "Kết ấn ninja"
+    },
+    {
+        value: "chay_kieu_ninja",
+        text: "Chạy kiểu ninja"
+    },
+    {
+        value: "phan_than_chi_thuat",
+        text: "Phân thân chi thuật"
+    },
            { value: "vanluottulong",
 text: "ván lướt tử long"
 },
@@ -1751,5 +1823,23 @@ naatunaatu: 909045016,
     giay_tinh_yeu: 205000385,
     giay_mac_dinh: 205000299,
     mu_tinh_yeu: 211000490,
-    kinh_tinh_yeu: 211000491
+    kinh_tinh_yeu: 211000491,
+       bat_can: 909047001,
+    cuc_quang_bung_no: 909047002,
+    tam_su: 909047003,
+    thien_than_tung_canh: 909047004,
+    kha_que: 909047005,
+    nang_cup: 909047006,
+    yeu_hay_khong_yeu: 909047007,
+    mua_keo: 909047008,
+    dau_nay_so: 909047009,
+    dem_nguoc: 909047010,
+    lac_hong: 909047011,
+    co_vu_cuong_nhiet: 909047012,
+    cu_nem_3_diem: 909047013,
+    rasengan: 909047015,
+    ngan_nam_dau_don: 909047016,
+    ket_an_ninja: 909047017,
+    chay_kieu_ninja: 909047018,
+    phan_than_chi_thuat: 909047019
 };
