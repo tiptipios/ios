@@ -1,8 +1,8 @@
                 var app = new Vue({
                     el: "#app", data() {
                         return {
-                            password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFree811", isPasswordCorrect: !1,
-                            linkToCopy: 'https://3Link.Co/QLO4vwq2zYR',
+                            password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFree412", isPasswordCorrect: !1,
+                            linkToCopy: 'https://3Link.Co/3dYg',
                             maxAttempts: 99999993,
                             currentAttempt: 0,
                             ifshow: !0,
