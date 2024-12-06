@@ -613,7 +613,7 @@ const app = Vue.createApp({
             tipSpeed50x()
         }
         function speed30x() {
-            tipspeed30x()
+            tipSpeed30x()
         }
                     function Speed10x() {
                     tipSpeed10x()}
