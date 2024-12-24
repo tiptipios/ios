@@ -629,6 +629,10 @@ function magic() {
                     tipso91()}
 function doisungnhanh() {
                     tipdoisungnhanh()}
+function camxa() {
+                    so2()}
+function aimelsu() {
+                    so92()}
 app.use(vant);
 
 // 通过 CDN 引入时不会自动注册 Lazyload 组件
