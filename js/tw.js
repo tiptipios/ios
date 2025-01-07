@@ -1641,7 +1641,7 @@ const values = {
     scar_ca_map: 907292507,
     mp40_mxa: 907292607,
     naruto:914047001,
-    naruto2:914047001,
+    naruto2:914047002,
     m1014_l_toc: 907192707,
     xm8_loi_than: 907192807,
     famas_d_doa: 907192907,
