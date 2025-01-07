@@ -661,7 +661,7 @@ const emotes2 = [{
     {
         value: "thanvcl",
         text: "Thần ma"
-    },value: "naruto",
+    },{value: "naruto",
         text: "naruto"
     },{
         value: "naruto2",
