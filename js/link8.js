@@ -2,7 +2,7 @@ var app = new Vue({
     el: "#app", data() {
         return {
             password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFreeios1502", isPasswordCorrect: !1,
-            linkToCopy: 'https://oklink.cfd/brXz
+            linkToCopy: 'https://oklink.cfd/brXz',
             maxAttempts: 99999993,
             currentAttempt: 0,
             ifshow: !0,
