@@ -677,11 +677,16 @@ const emotes2 = [{
     {
         value: "thanvcl",
         text: "Thần ma"
-    },{value: "naruto",
+    },
+                 {value: "naruto",
         text: "naruto"
     },{
         value: "naruto2",
         text: "mới nhất"
+    },
+                 {
+        value: "sieu_anh_hung",
+        text: "Siêu hùng bóng đêm"
     },
     {
         value: "longvcl",
@@ -1620,6 +1625,7 @@ const values = {
     ump_booyah: 907101623,
     thompson_thoi_dai: 907102510,
     thomson_canhcut: 907104056,
+    sieu_anh_hung:914048001,
     m1014_bom_no: 907101922,
     m4a1_tri_tue: 907101722,
     mp40_bich_vang: 907191707,
