@@ -472,8 +472,8 @@ let _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
 const app = Vue.createApp({
     data() {
         return {
-            password: localStorage.getItem("savedPassword") || "", correctPassword: "TipTipFreeios1502", isPasswordCorrect: !1,
-            linkToCopy: 'https://oklink.cfd/brXz',
+            password: localStorage.getItem("savedPassword") || "", correctPassword: "tip15042520tip", isPasswordCorrect: !1,
+            linkToCopy: 'https://oklink.cfd/1504pass',
             maxAttempts: 99999993,
             scriptsLoaded: {},
             result: [],
