@@ -242,6 +242,87 @@ const Modemotes = [{
         value: "katalv7",
         text: "TM Kết Liễu"
     },
+                   {
+        "value": "thoi_khac_hoang_kim",
+        "text": " P90 thời khắc hoàng kim"
+    },
+                       {
+        "value": "nailoong_day_roi",
+        "text": "nailoong đây rồi"
+    },
+    {
+        "value": "em_co_y_kien",
+        "text": "em có ý kiến"
+    },
+    {
+        "value": "cay_chua",
+        "text": "cay chưa"
+    },
+    {
+        "value": "dieu_nhay_toptop",
+        "text": "điệu nhảy toptop"
+    },
+    {
+        "value": "lac_hong",
+        "text": "lắc hông"
+    },
+    {
+        "value": "khoe_acc",
+        "text": "khoe acc"
+    },
+    {
+        "value": "tien_ve",
+        "text": "tiền về"
+    },
+    {
+        "value": "an_mung_doi",
+        "text": "ăn mừng đôi"
+    },
+    {
+        "value": "xoay_tay_vo_han",
+        "text": "xoay tay vô hạn"
+    },
+
+    {
+        "value": "thu_suc",
+        "text": "thử sức"
+    },
+    {
+        "value": "van_sung_quy_tam",
+        "text": "vạn súng quy tâm"
+    },
+    {
+        "value": "chi_huue",
+        "text": "chị huuuệ"
+    },
+    {
+        "value": "len_xe_anh_deo",
+        "text": "lên xe anh đèo"
+    },
+    {
+        "value": "len_xe_di_cung",
+        "text": "lên xe đi cưng"
+    },
+    {
+        "value": "mua_thuong",
+        "text": "múa thương"
+    },
+    {
+        "value": "khoe_co_quan_doan",
+        "text": "khoe cờ quân đoàn"
+    },
+    {
+        "value": "quay_len",
+        "text": "quẩy lên"
+    },
+    {
+        "value": "tap_the_duc",
+        "text": "tập thể dục"
+    },
+    {
+        "value": "ban_thang_quyet_dinh",
+        "text": "bàn thắng quyết định"
+    },
                        {
         value: "bat_can",
         text: "Bất cần"
@@ -1608,6 +1689,26 @@ const values = {
     gokienlv7: 909042008,
     gloralv7: 909041005,
     katalv7: 909044015,
+    nailoong_day_roi: 909049001,
+    em_co_y_kien: 909049002,
+    cay_chua: 909049003,
+    dieu_nhay_toptop: 909049004,
+    lac_hong: 909049005,
+    khoe_acc: 909049006,
+    tien_ve: 909049007,
+    an_mung_doi: 909049008,
+    xoay_tay_vo_han: 909049009,
+    thoi_khac_hoang_kim: 909049010,
+    thu_suc: 909049011,
+    van_sung_quy_tam: 909049012,
+    chi_huue: 909049013,
+    len_xe_anh_deo: 909049014,
+    len_xe_di_cung: 909049015,
+    mua_thuong: 909049016,
+    khoe_co_quan_doan: 909049017,
+    quay_len: 909049018,
+    tap_the_duc: 909049019,
+    ban_thang_quyet_dinh: 909049020,
     Racingboy7: 909043009,
     cuoiEch7: 909045005,
     caccho: 914000003,
